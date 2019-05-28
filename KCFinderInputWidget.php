@@ -1,6 +1,6 @@
 <?php
 
-namespace iutbay\yii2kcfinder;
+namespace elephantsGroup\kcfinder;
 
 use Yii;
 use yii\helpers\Html;
@@ -73,7 +73,7 @@ class KCFinderInputWidget extends KCFinder
         $this->registerClientScript();
 
         $button = Html::button(FontAwesome::icon('picture-o') . ' ' . $this->buttonLabel, $this->buttonOptions);
-        
+
         if ($this->iframe) {
             $button.= Modal::widget([
                 'id' => $this->getIFrameModalId(),

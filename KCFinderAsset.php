@@ -1,12 +1,12 @@
 <?php
 
-namespace iutbay\yii2kcfinder;
+namespace elephantsGroup\kcfinder;
 
 use yii\web\AssetBundle;
 
 class KCFinderAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/sunhater/kcfinder';
+    public $sourcePath = '@vendor/elephantsGroup/kcfinder';
 
 }

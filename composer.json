@@ -2,7 +2,7 @@
 	"name": "elephantsgroup/eg-kcfinder",
 	"description": "KCFinder for Yii2",
 	"keywords": ["yii2", "extension", "kcfinder"],
-	"homepage": "https://github.com/iutbay/yii2-kcfinder",
+	"homepage": "https://github.com/elephantsGroup/eg-kcfinder",
 	"type": "yii2-extension",
 	"authors": [
 		{
@@ -17,6 +17,6 @@
 		"iutbay/yii2-fontawesome" : "dev-master"
 	},
 	"autoload": {
-		"psr-4": {"iutbay\\yii2kcfinder\\": ""}
+		"psr-4": {"elephantsGroup\\kcfinder\\": ""}
 	}
 }
