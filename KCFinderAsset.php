@@ -7,6 +7,6 @@ use yii\web\AssetBundle;
 class KCFinderAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/elephantsGroup/kcfinder';
+    public $sourcePath = '@vendor/elephantsgroup/kcfinder';
 
 }
